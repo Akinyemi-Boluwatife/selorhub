@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  /* Set dark mode as default */
+  --color-bg: #0f0f0f;
+  --color-surface: #1a1a1a;
+  --color-text: #f9fafb;
+  --color-text-muted: #9ca3af;
+  --color-border: #27272a;
+  --color-accent: #ef4444;
+  --color-accent-hover: #dc2626;
+
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s, color 0.3s;
+}
